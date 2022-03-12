@@ -3,7 +3,6 @@
     margin: 0;
 }
 body {
-    font-size: 70px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -12,10 +11,8 @@ body {
 }
 a {
     position: relative;
-    letter-spacing: 5px;
-    padding: 60px 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    letter-spacing: 4px;
+    padding: 20px 40px;
     background: orange;
     color: #fff;
     text-decoration: none;
@@ -23,7 +20,7 @@ a {
     font-family: sans-serif;
     transform-style: preserve-3d;
     transition: ease-in-out 2s;
-    border-radius: 80px;
+    border-radius: 60px;
 
 }
 a:hover {
@@ -44,7 +41,7 @@ a::after {
     right: 6px;
     bottom: 4px;
     border: 2px solid #fff;
-    border-radius: 80px;
+    border-radius: 60px;
     transform-style: preserve-3d;
     transform: perspective(500px) translateZ(15px);
 }
@@ -56,7 +53,7 @@ a::before {
     right: 6px;
     bottom: 4px;
     border: 2px solid #fff;
-    border-radius: 80px;
+    border-radius: 60px;
     transform-style: preserve-3d;
     transform: perspective(500px) translateZ(-15px);
 }
